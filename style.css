@@ -1,0 +1,72 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #FFD693;
+    text-align: center;
+    padding: 30px;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
+.imgimg {
+    display: flex;
+    justify-content: center;
+}
+
+.div-foods {
+    display: flex;
+    justify-content: center;
+}
+
+.div-foods div {
+
+
+    flex: 1;
+    border: 1px solid black;
+}
+
+
+
+.manti {
+    background-color: blue;
+}
+
+.hotdog {
+    background-color: #FFD693;
+}
+
+.zuppa {
+    background-color: aqua;
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: pink;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    height: 900px;
+}
+
+
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 900px;
+    width: 300px;
+    flex-basis: auto;
+}
